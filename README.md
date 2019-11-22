@@ -1,7 +1,7 @@
 # Graph Database Explore
 Explore capacity of Neo4J and Graph Database
 
-### How to run example python program
+### How to run import data to Neo4J
 1. Install python from source: https://www.python.org/downloads/mac-osx/
 2. Clone / downloads the project
 3. Create a virtual environment:
@@ -22,3 +22,18 @@ Explore capacity of Neo4J and Graph Database
     ```bash
     python GraphDatabaseFromFile.py
     ```
+
+### How to run extract data from SandBox Neo4J
+1. Install python, clone project and create all virtual environment.
+2. Create a Neo4J Sandbox https://neo4j.com/sandbox-v2/#
+3. Obtain the credentials for python: We will need "bolt://..." as URL, "neo4j" as username and "file-locomotives-boot" as password
+
+    ![](pic/credentials.png)
+
+4. Modify source code of connectSandBox.py
+
+    ![](pic/python_main.png)
+5. Execute python file as usual
+
+### Reference
+1. Neo4J CheatSheet: https://neo4j.com/docs/cypher-refcard/current/?ref=browser-guide
