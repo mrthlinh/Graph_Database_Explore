@@ -5,7 +5,7 @@ mccabe==0.6.1
 neo4j==1.7.6
 neobolt==1.7.15
 neotime==1.7.4
-pylint==2.4.3
+pylint==4.0.9
 pytz==2019.3
 six==1.13.0
 typed-ast==1.4.0
